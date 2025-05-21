@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* If you have internet access, you can use Google Fonts */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* background: #000; */
+
+}
+
+.main-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+.main-container .div1{
+    border-right: 1px solid gray;
+}
+.main-container .div1{
+    padding: 0 10px 0 20px;
+}
+.div1 img{
+    width: 50px;
+    height: 50px;
+}
+
+.div1 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.div1 ul li{
+    padding: 12px 5px;
+}
+
+.div1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+
+}
+
+.div1 .post-btn{
+    padding: 10px 20px;
+    border-radius: 35px;
+    background: #000;
+    text-align: center;
+}
+
+.div1 .post-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.div1 .bottom{
+    display: flex;
+    margin-top: 35px;
+}
+
+.bottom .details h3{
+    font-size: 12px;
+    margin: 0;
+}
+.bottom .details p{
+    opacity: 0.6;
+    font-size: 9px;
+}
+.bottom .pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom .view-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.bottom .view-more a{
+    text-decoration: none}
