@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            height: 20vh;
+        }
+        .main-container .left,
+        .main-container .right
+        {
+            width: 100%;
+        }
+
+        .left video, .right iframe{
+            width: 100%;
+            height: 20vh
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left">
+            <video autoplay controls src="./videos/NO TURNING BACK II (I Have Decided) __ Official Dance Video __ Gaise Baba.mp4"></video>
+        </div>
+        <div class="right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u9fSfE4pMhI?si=_gY61PUaH6uVm5lW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

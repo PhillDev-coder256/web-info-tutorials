@@ -1,0 +1,19 @@
+
+h1{
+    color: red;
+}
+.blue-txt, h2, p{
+    color: blue !important;
+    border: 2px dotted green;
+    padding: 10px;
+}
+#discover{
+    color: green;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 12px;
+}
+
+p{
+    color: yellow;
+}
